@@ -1,55 +1,64 @@
-# 🐍 高一 Python 探索課
+# 🐍 高一 Python 自主學習
 
-**從「我也能做到」開始，把一行程式變成自己的小作品。**
+**每週一小步，用程式完成自己的小作品。**
 
-適合高中一年級、從未寫過程式的學生。採繁體中文、生活例子與短任務，每週 2 堂、每堂 60 分鐘；先建立信心，再逐步練習讀程式與解題。
+適合高中一年級上學期、完全沒有程式經驗的學生。使用學校電腦教室，透過線上 Jupyter 學習 Python，教材採繁體中文、生活例子與短任務。
 
-## 🚀 第一堂：讓電腦說話
+- **期間：22 週，每週 1 節，約 50 分鐘。**
+- **第 6、10、12、16、22 週停課**，實際學習 17 次，共 850 分鐘。
+- **目標：**理解 Python 初階語法、程式執行順序與基本邏輯，練習測試及除錯，完成一件簡易作品。
+- **環境：**[線上 Jupyter（JupyterLite）](https://jupyter.org/try-jupyter/lab/)，透過瀏覽器操作。
 
-今天用 Python 做一張「我的程式名片」。可以選太空探險家、球隊新秀、音樂人，或自己喜歡的角色。
+## 📋 計畫書與學習進度
+
+| 你需要什麼？ | 從這裡開始 |
+| --- | --- |
+| 學校申請用簡版計畫書 | [四項計畫書](plans/22-week-self-study-plan.md) |
+| A4 列印版本 | [下載計畫書 PDF](plans/高一Python自主學習計畫書_A4.pdf) |
+| 22 週安排與每週成果 | [週進度表](COURSE_PLAN.md) |
+| 開啟、執行與備份筆記本 | [線上 Jupyter 操作指南](SETUP.md) |
+
+計畫書包含計畫名稱、100 字以內的內容說明、每週 20 字以內的週計畫及預期成果。PDF 為 A4 直式單頁，列印可選「A4、實際大小／100%」。
+
+## 🚀 第一週：讓電腦說話
+
+用 `print()` 做一張自己的「程式名片」：
 
 ```text
-=== 我的程式名片 ===
 暱稱：星際飯糰
 興趣：聽音樂
 招牌技能：把問題拆小
-今天的任務：完成第一支程式
 ```
 
-**[開始上課 → 第一堂學生講義](lessons/01-first-program/README.md)**
+**[開始上課 → 第一週學生講義](lessons/01-first-program/README.md)**
 
-| 你現在需要什麼？ | 從這裡開始 |
+1. 取得 [W01_我的第一支程式.ipynb](lessons/01-first-program/W01_我的第一支程式.ipynb)：在檔案頁按 **Download raw file**。也可在首頁選 **Code → Download ZIP** 並解壓縮。
+2. 開啟[線上 Jupyter](https://jupyter.org/try-jupyter/lab/)，按左側檔案區的 **Upload Files** 上傳筆記本，再雙擊開啟。
+3. 點選程式儲存格，按 **Shift + Enter**，看看程式會說什麼；詳細操作見 [SETUP](SETUP.md)。
+4. 完成名片與反思後，儲存並下載 `.ipynb`，放到學校允許的個人雲端空間或隨身碟。
+
+**每堂都要下載備份。** JupyterLite 主要把檔案存在目前瀏覽器中，換電腦或清除資料後，不能保證原檔仍在；按儲存不等於已同步到個人雲端。
+
+| 第一週資源 | 用途 |
 | --- | --- |
-| 準備電腦與 PyCharm | [課前準備](SETUP.md) |
-| 跟著第一堂一步一步做 | [學生講義](lessons/01-first-program/README.md) |
-| 做任務、練習找錯 | [闖關練習](lessons/01-first-program/exercises.md) |
-| 記錄學到什麼 | [學習單](lessons/01-first-program/worksheet.md) |
-| 老師／家長帶課 | [60 分鐘教學指引](lessons/01-first-program/teacher-guide.md) |
-| 做完後對答案 | [參考解答](lessons/01-first-program/solutions/README.md) |
-| 想知道後面會學什麼 | [12 週課程路線](COURSE_PLAN.md) |
+| [學生講義](lessons/01-first-program/README.md) | 50 分鐘的操作與概念說明 |
+| [Jupyter 筆記本](lessons/01-first-program/W01_我的第一支程式.ipynb) | 跟著執行、修改與完成作品 |
+| [闖關練習](lessons/01-first-program/exercises.md) | 核心任務與選做挑戰 |
+| [學習單](lessons/01-first-program/worksheet.md) | 記錄預測、除錯與心得 |
+| [教師指引](lessons/01-first-program/teacher-guide.md) | 協助設備準備與引導 |
+| [參考解答](lessons/01-first-program/solutions/README.md) | 完成後比較做法 |
 
-## 第一堂的完成線
+## 第一週的完成線
 
-- [ ] 自己開啟並執行一個 `.py` 檔。
+- [ ] 能開啟 Notebook，執行及修改程式儲存格。
 - [ ] 用 `print()` 顯示至少三行自己設計的文字。
-- [ ] 修改內容後重新執行，看見結果改變。
-- [ ] 能說明一行程式，並修正一次引號或括號錯誤。
+- [ ] 能說明程式順序與 `#` 註解，修正一次引號或括號錯誤。
+- [ ] 完成簡短反思，下載並保存本週 `.ipynb`。
 
-第一堂聚焦 `print()`、字串、由上往下的執行順序、`#` 註解。變數安排在第二堂，`input()` 安排在第三堂。
-
-## 怎麼使用這份教材？
-
-1. 在 GitHub 儲存庫首頁選 **Code → Download ZIP**，解壓縮。
-2. 用 PyCharm 的 **Open** 開啟解壓縮後的資料夾，依[課前準備](SETUP.md)確認 Python 直譯器。
-3. 開啟 `lessons/01-first-program/examples/01_hello.py`，在編輯區按右鍵，選 **Run '01_hello'**。
-4. 一邊看[學生講義](lessons/01-first-program/README.md)，一邊修改與執行。
-
-GitHub 用來閱讀與下載教材；一般檔案頁面不會執行 Python。學生第一堂不需要學 Git，也不需要安裝額外套件。私人儲存庫需先有存取權限，教師也可下載後提供教材檔案。
-
-課程操作說明以參考對話使用的 **PyCharm 2025.2 系列**為基準。Python 3 即可執行範例；本次實測版本與結果見 [驗證紀錄](VALIDATION.md)。
+GitHub 用來閱讀及下載教材，程式在 Jupyter 執行。儲存庫維持私人設定，教師可先下載教材，再透過學校允許的方式提供給學生；學生不需要學 Git 才能開始。
 
 ## 教材狀態
 
-目前完整提供 **第一堂課**。後續 23 堂僅列課程規劃，尚未製作教材。全課採「先猜 → 執行 → 改一處 → 說明」，每堂保留一個看得見的成果。
+已提供 **22 週規劃、簡版申請書與 A4 PDF，以及第一週完整教材**。其餘 16 次學習目前列出進度與任務，詳細教材尚未製作。第 21 週完成成果展示，停課週不安排必要作業。
 
-[設計依據與參考資料](REFERENCES.md)
+[設計依據與參考資料](REFERENCES.md) · [驗證紀錄](VALIDATION.md)
