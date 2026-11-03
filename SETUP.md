@@ -1,65 +1,64 @@
-# 課前準備：讓第一堂課順利開跑
+# 線上 Jupyter：從開啟到備份
 
-[回課程首頁](README.md) · [進入第一堂](lessons/01-first-program/README.md)
+[回課程首頁](README.md) · [進入第一週](lessons/01-first-program/README.md)
 
-建議老師或家長在上課前完成環境準備；第一堂保留時間讓學生親手建立檔案、執行與修改。
+使用學校電腦教室的瀏覽器，在 [JupyterLite](https://jupyter.org/try-jupyter/lab/) 學 Python。電腦不需安裝 Python 或開發工具。
 
-## 需要準備
+## 上課前準備
 
-- 一台有實體鍵盤的電腦。
-- Python 3 與 PyCharm。參考課程使用 PyCharm 2025.2.1.1，本教材依 2025.2 文件整理；其他版本的按鈕位置可能不同。
-- 下載並解壓縮這份教材。**開啟解壓縮後的資料夾，不是 ZIP 檔。**
+- 可連網、具有鍵盤的學校電腦，瀏覽器允許 JavaScript。
+- 下載 [第一週 Notebook](lessons/01-first-program/W01_我的第一支程式.ipynb)。GitHub 檔案頁按 **Download raw file**，保留 `.ipynb` 副檔名。
+- 準備學校允許的個人雲端空間或隨身碟，存放每週成果。
 
-PyCharm 是寫程式的工作桌；Python 直譯器是實際執行程式的工具。兩者都要準備好。若沒有安裝，請由老師／家長透過 [Python 官方網站](https://www.python.org/downloads/)與 [PyCharm 官方網站](https://www.jetbrains.com/pycharm/download/)完成。
+教師先在教室電腦確認網站可開啟、Python 核心可啟動、中文可顯示，並試過一次上傳及下載。若校內網路封鎖網站，請先與學校確認可用的線上 Jupyter 環境。
 
-## 路線 A：直接使用下載的教材
+## 開啟第一週筆記本
 
-1. 啟動 PyCharm，選 **Open**，開啟教材資料夾。
-2. 確認專案有 Python 3 直譯器。若顯示未設定，進入 **Settings**，搜尋 **Python Interpreter**，選取已安裝的 Python；需要新增時使用 **Add Interpreter → Add Local Interpreter**。
-3. 在左側 Project 檔案清單中開啟 `lessons/01-first-program/examples/01_hello.py`。
-4. 在程式編輯區按右鍵，選 **Run '01_hello'**。
-5. 在 **Run** 視窗找到 `你好，Python！`。出現 `Process finished with exit code 0` 表示這次程式正常結束；那行是工具訊息，不是你寫的文字。
+1. 開啟 [線上 Jupyter](https://jupyter.org/try-jupyter/lab/)，等候載入。
+2. 在左側檔案區按 **Upload Files**（向上箭頭），選取 `W01_我的第一支程式.ipynb`。
+3. 在檔案清單雙擊筆記本。如果跳出核心選擇，選可用的 **Python** 核心，例如名稱含 **Pyodide** 的選項。
+4. 點選第一個程式儲存格，按 **Shift + Enter**。看到 `你好，Python！` 就成功了。
+5. 修改引號內的文字，再按 **Shift + Enter**，觀察輸出改變。
 
-## 路線 B：學生親手建立自己的檔案
+Notebook 就像一本可以執行程式的學習筆記：**Markdown 儲存格**放說明，**Code 儲存格**放 Python。程式結果出現在該格下方。雙擊文字格可編輯文字，按 **Shift + Enter** 顯示排版後的內容。
 
-1. 在已開啟的專案中，右鍵點左側的專案資料夾，選 **New → Python File**。
-2. 輸入名稱 `my_card`，確認產生 `my_card.py`。
-3. 輸入下面一行，不要連同 Markdown 的三個反引號一起貼入：
+同一個程式格的指令由上往下執行；不同格子依你實際按執行的順序運作。初學時請跟著教材由上往下執行，避免跳格。
+
+## 想自己建立一本？
+
+1. 按左上方 **＋** 開啟 Launcher，選 **Notebook** 下的 Python 核心。
+2. 在第一個 Code 儲存格輸入：
 
 ```python
 print("你好，Python！")
 ```
 
-4. 在編輯區按右鍵，選 **Run 'my_card'**。
-5. 改變引號內的文字，再執行一次。確認 Run 顯示的是 `my_card`，避免跑到先前的範例。
+3. 按 **Shift + Enter** 執行。可用工具列 **＋** 增加儲存格，從格子類型選單切換 Code 或 Markdown。
+4. 在左側檔案清單右鍵點筆記本，選 **Rename**，命名為 `W01_我的第一支程式.ipynb`。
 
-若需要全新專案，可從歡迎畫面選 **New Project → Pure Python**，選擇資料夾與可用的 Python 3，保留適合新專案的環境設定後建立。
+## 下課前：儲存、下載、備份
+
+1. 按 **File → Save Notebook** 或工具列儲存圖示，先儲存目前內容。
+2. 在左側檔案清單右鍵點自己的 `.ipynb`，選 **Download**。
+3. 確認電腦下載資料夾中的檔案名稱及時間，再存到學校允許的個人雲端空間或隨身碟。
+4. 下週先取回備份，再用 **Upload Files** 上傳，接著學習。
+
+**按儲存不代表已存到個人雲端。** JupyterLite 預設使用瀏覽器的本機儲存空間。共用電腦可能清除資料，換電腦也不會自動帶走筆記；請每次離開前下載備份。
 
 ## 常見卡關
 
-| 看見什麼 | 先做什麼 |
+| 看見什麼 | 可以怎麼做 |
 | --- | --- |
-| 沒有 Python interpreter／Invalid environment | 請老師確認已安裝 Python，並選到有效的直譯器路徑 |
-| 改了文字，輸出仍然沒變 | 重新執行；檢查 Run 的檔名是否正確 |
-| 紅色錯誤訊息 | 回編輯區檢查引號、括號與大小寫，參考第一堂的除錯表 |
-| 程式一下就結束 | 這堂的 `print()` 程式顯示完就會結束，屬正常現象 |
-| 不知道要在哪裡打程式 | 在 `.py` 檔的編輯區輸入，不是 Run 輸出區 |
+| GitHub 頁面不能執行程式 | 下載 `.ipynb`，上傳到線上 Jupyter |
+| 格子顯示文字，沒有執行結果 | 確認該格類型是 Code，再按 Shift + Enter |
+| 改了文字，結果還是舊的 | 點回剛修改的程式格，重新執行 |
+| 顯示 `[*]` 很久 | 第一次啟動需等候；仍無回應時請老師協助檢查網路或核心 |
+| 跳出紅色錯誤 | 檢查引號、括號、大小寫與半形符號，一次改一處 |
+| 重啟核心後變數不見了 | 重啟會清除執行狀態，請由上往下重新執行必要格子 |
+| 找不到上週的筆記本 | 從自己的雲端空間或隨身碟取回備份後上傳 |
 
-Run 裡的停止按鈕可中止仍在執行的程式；這堂範例很快就會完成，按鈕可能變成不可用。
+如需中止長時間執行，可使用 **Kernel → Interrupt Kernel**。重啟前先儲存可保存的內容，並了解先前執行狀態會清除。
 
-## 教師的課前確認
+既有 `.py` 範例仍可閱讀：把檔案內的 Python 程式複製到 Code 儲存格再執行。第一週主要使用 `.ipynb`，不必另外操作終端機。
 
-- [ ] 範例能顯示中文。
-- [ ] 學生知道如何切換英文輸入、輸入半形 `()` 與 `"`。
-- [ ] 第一行程式前面沒有多餘空格。
-- [ ] 斷網時仍可開啟本機教材並執行範例。
-
-熟悉終端機的人也可以在教材根目錄執行：
-
-```sh
-python3 lessons/01-first-program/examples/01_hello.py
-```
-
-Windows 若使用 Python Launcher，可將前面的 `python3` 改為 `py`。這是替代操作方式，不是第一堂必修內容。
-
-操作依據：[PyCharm 建立與執行專案](https://www.jetbrains.com/help/pycharm/2025.2/creating-and-running-your-first-python-project.html)、[設定 Python 直譯器](https://www.jetbrains.com/help/pycharm/2025.2/configuring-python-interpreter.html)。
+操作及儲存依據：[JupyterLite 官方使用說明](https://jupyterlite.readthedocs.io/en/latest/quickstart/using.html)。
