@@ -7,7 +7,7 @@
 - **期間：22 週，每週 1 節，約 50 分鐘。**
 - **第 6、10、12、16、22 週停課**，實際學習 17 次，共 850 分鐘。
 - **目標：**理解 Python 初階語法、程式執行順序與基本邏輯，練習測試及除錯，完成一件簡易作品。
-- **環境：**[線上 Jupyter（JupyterLite）](https://jupyter.org/try-jupyter/lab/)，透過瀏覽器操作。
+- **環境：**透過瀏覽器操作 Jupyter 筆記本；第一週可直接使用 [Google Colab](https://colab.research.google.com/drive/1LXPag1eda66wTrA1mrwClNdxuGomTEK2)，也可使用 [JupyterLite](https://jupyter.org/try-jupyter/lab/)。
 
 ## 📋 計畫書與學習進度
 
@@ -30,7 +30,15 @@
 招牌技能：把問題拆小
 ```
 
-**[開始上課 → 第一週學生講義](lessons/01-first-program/README.md)**
+**[直接在 Colab 開始第一週 →](https://colab.research.google.com/drive/1LXPag1eda66wTrA1mrwClNdxuGomTEK2)**
+
+登入 Google 帳號後，先選 **檔案 → 在雲端硬碟中儲存複本**，再修改自己的副本。筆記本已整合第一週說明、可執行範例、名片作品、自評與選做闖關；不需逐一開啟 `.py` 檔。點程式格左側 **▶** 或按 **Shift + Enter** 執行。
+
+Colab 副本會儲存在自己的 Google 雲端硬碟；下課前確認儲存完成，也可選 **檔案 → 下載 → 下載 .ipynb** 備份。
+
+[閱讀第一週學生講義](lessons/01-first-program/README.md)
+
+**若改用 JupyterLite，請依下列步驟：**
 
 1. 取得 [W01_我的第一支程式.ipynb](lessons/01-first-program/W01_我的第一支程式.ipynb)：在檔案頁按 **Download raw file**。也可在首頁選 **Code → Download ZIP** 並解壓縮。
 2. 開啟[線上 Jupyter](https://jupyter.org/try-jupyter/lab/)，按左側檔案區的 **Upload Files** 上傳筆記本，再雙擊開啟。
@@ -42,7 +50,8 @@
 | 第一週資源 | 用途 |
 | --- | --- |
 | [學生講義](lessons/01-first-program/README.md) | 50 分鐘的操作與概念說明 |
-| [Jupyter 筆記本](lessons/01-first-program/W01_我的第一支程式.ipynb) | 跟著執行、修改與完成作品 |
+| [Jupyter 筆記本](lessons/01-first-program/W01_我的第一支程式.ipynb) | 完整說明、範例、練習及選做解答 |
+| [Colab 線上版](https://colab.research.google.com/drive/1LXPag1eda66wTrA1mrwClNdxuGomTEK2) | 先存到自己的雲端硬碟，再開始操作 |
 | [闖關練習](lessons/01-first-program/exercises.md) | 核心任務與選做挑戰 |
 | [學習單](lessons/01-first-program/worksheet.md) | 記錄預測、除錯與心得 |
 | [教師指引](lessons/01-first-program/teacher-guide.md) | 協助設備準備與引導 |
