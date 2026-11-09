@@ -1,10 +1,22 @@
-# 線上 Jupyter：從開啟到備份
+# 線上 Jupyter：Colab 與 JupyterLite
 
 [回課程首頁](README.md) · [進入第一週](lessons/01-first-program/README.md)
 
-使用學校電腦教室的瀏覽器，在 [JupyterLite](https://jupyter.org/try-jupyter/lab/) 學 Python。電腦不需安裝 Python 或開發工具。
+使用學校電腦教室的瀏覽器，選擇 Colab 或 JupyterLite 學 Python。電腦不需安裝 Python 或開發工具。
 
-## 上課前準備
+## 第一週可直接使用 Colab
+
+1. 開啟 [第一週 Colab 筆記本](https://colab.research.google.com/drive/1LXPag1eda66wTrA1mrwClNdxuGomTEK2)，登入 Google 帳號。
+2. 選 **檔案 → 在雲端硬碟中儲存複本**（File → Save a copy in Drive），在自己的副本練習。
+3. 點程式格左側 **▶** 或按 **Shift + Enter** 執行；第一次執行可能需要等待連線。
+4. 修改內容後重新執行，再確認上方顯示儲存完成。登入且可編輯的雲端硬碟副本會自動儲存，也可按 **Ctrl + S**（Mac：Command + S）。
+5. 下課前可選 **檔案 → 下載 → 下載 .ipynb**，額外保留一份檔案；下週直接打開自己雲端硬碟中的副本。
+
+Colab 左側「檔案」是執行環境的檔案區；下載這份筆記本請使用上方「檔案」選單。程式執行狀態可能在連線結束後清除，下次使用時依順序重新執行。
+
+**以下操作適用於 JupyterLite；兩種方式擇一即可。**
+
+## JupyterLite 上課前準備
 
 - 可連網、具有鍵盤的學校電腦，瀏覽器允許 JavaScript。
 - 下載 [第一週 Notebook](lessons/01-first-program/W01_我的第一支程式.ipynb)。GitHub 檔案頁按 **Download raw file**，保留 `.ipynb` 副檔名。
