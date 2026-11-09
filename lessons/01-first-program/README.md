@@ -2,7 +2,7 @@
 
 [課程首頁](../../README.md) · [課前準備](../../SETUP.md) · [Notebook](W01_我的第一支程式.ipynb) · [學習單](worksheet.md)
 
-**對象：高一零基礎｜每週 50 分鐘｜本週工具：線上 JupyterLite**
+**對象：高一零基礎｜每週 50 分鐘｜本週工具：Google Colab／JupyterLite**
 
 本週你是角色設計師，用幾行 Python 做一張文字名片。全程照著 Notebook 自主操作，不需要先安裝 Python，也不需要學會 Git。
 
@@ -10,7 +10,8 @@
 
 ## 先選一條學習路線
 
-- **建議：** 下載 [W01_我的第一支程式.ipynb](W01_我的第一支程式.ipynb)，上傳到 [JupyterLite](https://jupyter.org/try-jupyter/lab/)，照著裡面的順序操作。說明、練習、作品與反思都在同一份 Notebook。
+- **直接用 Colab：** 開啟 [第一週線上筆記本](https://colab.research.google.com/drive/1LXPag1eda66wTrA1mrwClNdxuGomTEK2)，登入後選 **檔案 → 在雲端硬碟中儲存複本**，在自己的副本操作。按程式格左側 **▶** 或 **Shift + Enter** 執行。
+- **使用 JupyterLite：** 下載 [W01_我的第一支程式.ipynb](W01_我的第一支程式.ipynb)，上傳到 [JupyterLite](https://jupyter.org/try-jupyter/lab/)，照著裡面的順序操作。說明、練習、作品與反思都在同一份 Notebook。
 - **閱讀版：** 留在本頁閱讀，將範例貼到 JupyterLite 的 Python Notebook 程式格執行。[學習單](worksheet.md)是同一套內容的紀錄版，不必另外再做一遍。
 
 GitHub 顯示的是教材預覽，不能直接執行 Python。`.py` 範例保留作為對照；本週直接在 Notebook 的程式格練習即可。
@@ -29,6 +30,10 @@ GitHub 顯示的是教材預覽，不能直接執行 Python。`.py` 範例保留
 | 47–50 分 | 存檔、下載、確認備份 | 電腦裡有自己的 `.ipynb` 檔 |
 
 ## 0–5 分｜準備出發
+
+**Colab 路線：** 開啟上方 Colab 連結，登入並將複本存到自己的雲端硬碟。找到第一個程式格，按左側 **▶** 或 **Shift + Enter**；第一次執行等候連線即可。
+
+**JupyterLite 路線：**
 
 1. 下載上方 Notebook；在 GitHub 檔案預覽頁使用 **Download raw file／下載原始檔案**，不要把網頁另存成 HTML。
 2. 開啟 [JupyterLite](https://jupyter.org/try-jupyter/lab/)。在左側檔案區使用 **Upload Files／上傳檔案**，或把 `.ipynb` 拖進檔案區。
@@ -146,10 +151,14 @@ print("招牌技能：把問題拆小")
 
 ## 47–50 分｜把作品帶走
 
+**Colab 路線：** 確認正在編輯自己的雲端硬碟副本並已儲存完成；可按 **Ctrl + S**（Mac：Command + S）。再選 **檔案 → 下載 → 下載 .ipynb** 備份，下週從自己的 Google 雲端硬碟開啟副本即可。
+
+**JupyterLite 路線：**
+
 1. 在 Notebook 按 **Ctrl + S**（Mac 用 **Command + S**），或按工具列的儲存圖示。
 2. 在左側檔案區對這份 Notebook 按右鍵，選 **Download／下載**，把 `.ipynb` 存到自己的課程資料夾。
 3. 到電腦下載位置確認：副檔名是 `.ipynb`，不是 `.html`；檔案存在且大小不是 0。再存到學校允許的個人雲端空間或隨身碟；下週取回並上傳到 JupyterLite 繼續學。
 
 JupyterLite 的工作檔通常存在這個瀏覽器的儲存空間；換電腦、換瀏覽器或清除網站資料後，不能假設它還在。**按儲存不等於已下載備份。** 上傳與儲存方式可參考 [JupyterLite 官方使用說明](https://jupyterlite.readthedocs.io/en/latest/quickstart/using.html)。
 
-🏁 **本週完成！** [額外闖關](exercises.md)全部為選做，不包含在 50 分鐘必做進度內。
+🏁 **本週完成！** [額外闖關](exercises.md)全部為選做，不包含在 50 分鐘必做進度內。Notebook 末尾也收錄完整註解範例、含標題的名片骨架及四個選做關卡，搭配說明、提示與參考解答，可在同一本筆記中繼續練習。
