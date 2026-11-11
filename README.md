@@ -32,7 +32,7 @@
 
 **[直接在 Colab 開始第一週 →](https://colab.research.google.com/drive/1LXPag1eda66wTrA1mrwClNdxuGomTEK2)**
 
-登入 Google 帳號後，先選 **檔案 → 在雲端硬碟中儲存複本**，再修改自己的副本。筆記本已整合第一週說明、可執行範例、名片作品、自評與選做闖關；不需逐一開啟 `.py` 檔。點程式格左側 **▶** 或按 **Shift + Enter** 執行。
+登入 Google 帳號後，先選 **檔案 → 在雲端硬碟中儲存複本**，再修改自己的副本。筆記本精簡為一個示範、一次除錯與一張文字名片，共 3 個程式格；所有練習都在同一本完成。點程式格左側 **▶** 或按 **Shift + Enter** 執行。
 
 Colab 副本會儲存在自己的 Google 雲端硬碟；下課前確認儲存完成，也可選 **檔案 → 下載 → 下載 .ipynb** 備份。
 
@@ -50,10 +50,10 @@ Colab 副本會儲存在自己的 Google 雲端硬碟；下課前確認儲存完
 | 第一週資源 | 用途 |
 | --- | --- |
 | [學生講義](lessons/01-first-program/README.md) | 50 分鐘的操作與概念說明 |
-| [Jupyter 筆記本](lessons/01-first-program/W01_我的第一支程式.ipynb) | 完整說明、範例、練習及選做解答 |
+| [Jupyter 筆記本](lessons/01-first-program/W01_我的第一支程式.ipynb) | 精簡說明、1 個示範、1 次除錯與1 張名片 |
 | [Colab 線上版](https://colab.research.google.com/drive/1LXPag1eda66wTrA1mrwClNdxuGomTEK2) | 先存到自己的雲端硬碟，再開始操作 |
-| [闖關練習](lessons/01-first-program/exercises.md) | 核心任務與選做挑戰 |
-| [學習單](lessons/01-first-program/worksheet.md) | 記錄預測、除錯與心得 |
+| [作品完成條件](lessons/01-first-program/exercises.md) | 對照同一張名片，不另加練習 |
+| [紙本學習紀錄](lessons/01-first-program/worksheet.md) | 需要紙本時才填，不重抄程式 |
 | [教師指引](lessons/01-first-program/teacher-guide.md) | 協助設備準備與引導 |
 | [參考解答](lessons/01-first-program/solutions/README.md) | 完成後比較做法 |
 
