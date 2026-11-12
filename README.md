@@ -66,8 +66,18 @@ Colab 副本會儲存在自己的 Google 雲端硬碟；下課前確認儲存完
 
 GitHub 用來閱讀及下載教材，程式在 Jupyter 執行。儲存庫已公開，學生可直接閱讀及下載教材；學生不需要學 Git 才能開始。
 
+## 🎒 第二週：變數與角色補給站
+
+讓程式記住角色資料、計算購買花費，再交換兩件裝備。內容包含變數命名、重新指定、四則運算、常數與變數交換。
+
+**[在 Colab 開始第二週 →](https://colab.research.google.com/github/AndyFeng0802/high-school-python/blob/main/lessons/02-variables/W02_%E8%AE%8A%E6%95%B8%E8%88%87%E8%A7%92%E8%89%B2%E8%A3%9C%E7%B5%A6%E7%AB%99.ipynb)**
+
+[課程導覽](lessons/02-variables/README.md) · [下載 Notebook](lessons/02-variables/W02_變數與角色補給站.ipynb) · [教師指引](lessons/02-variables/teacher-guide.md)
+
+前言 3 分鐘，中間每個重點 5–10 分鐘，最後結論 2 分鐘，共 50 分鐘。18 格筆記、6 個程式格串起同一個情境，完成一張角色補給資料卡；沒有額外闖關或重複作業。
+
 ## 教材狀態
 
-已提供 **22 週規劃、簡版申請書與 A4 PDF，以及第一週完整教材**。其餘 16 次學習目前列出進度與任務，詳細教材尚未製作。第 21 週完成成果展示，停課週不安排必要作業。
+已提供 **22 週規劃、簡版申請書與 A4 PDF，以及第一、二週完整教材**。其餘 15 次學習目前列出進度與任務，詳細教材尚未製作。第 21 週完成成果展示，停課週不安排必要作業。
 
 [設計依據與參考資料](REFERENCES.md) · [驗證紀錄](VALIDATION.md)
